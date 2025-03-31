@@ -1,0 +1,151 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 3rem;
+    background-color: #014687;
+}
+
+h1 {
+    font-size: 3.6rem;
+    color: #014687;
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #333333;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+a {
+    display: block;
+    max-width: 150px;
+    background: #f08A01;
+    color: #F4F4F4;
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin: 0rem auto;
+    text-align: center;
+}
+
+a:hover {
+    background: #014687;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+}
+
+header div img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+header nav {
+    width: 93%;
+    background-color: #f08A01;
+    border-radius: 10px;
+    padding: 1rem 5%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+article img {
+    width: 30%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* Sections */
+#inicio, #sobre, #cursos {
+    padding: 4rem 5%;
+    margin: 4rem 5%;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+/* Footer */
+.rodape {
+    background: #014687;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.rodape-container {
+    width: 93%;
+    padding: 1rem 5%;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #f08A01;
+    margin: 0 auto;
+}
+
+.rodape-texto {
+    color: #F4F4F4;
+    margin: 0 auto;
+}
